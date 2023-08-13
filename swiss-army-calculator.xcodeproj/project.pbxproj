@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26832B52A88A0FF00A2AAB7 /* swiss_army_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26832B42A88A0FF00A2AAB7 /* swiss_army_calculatorApp.swift */; };
+		D26832B72A88A0FF00A2AAB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26832B62A88A0FF00A2AAB7 /* ContentView.swift */; };
+		D26832B92A88A10000A2AAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26832B82A88A10000A2AAB7 /* Assets.xcassets */; };
+		D26832BC2A88A10000A2AAB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26832BB2A88A10000A2AAB7 /* Preview Assets.xcassets */; };
+		D26832C62A88A10000A2AAB7 /* swiss_army_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26832C52A88A10000A2AAB7 /* swiss_army_calculatorTests.swift */; };
+		D26832D02A88A10000A2AAB7 /* swiss_army_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26832CF2A88A10000A2AAB7 /* swiss_army_calculatorUITests.swift */; };
+		D26832D22A88A10000A2AAB7 /* swiss_army_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26832D12A88A10000A2AAB7 /* swiss_army_calculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D26832C22A88A10000A2AAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26832A92A88A0FF00A2AAB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26832B02A88A0FF00A2AAB7;
+			remoteInfo = "swiss-army-calculator";
+		};
+		D26832CC2A88A10000A2AAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26832A92A88A0FF00A2AAB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26832B02A88A0FF00A2AAB7;
+			remoteInfo = "swiss-army-calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D26832B12A88A0FF00A2AAB7 /* swiss-army-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiss-army-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26832B42A88A0FF00A2AAB7 /* swiss_army_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiss_army_calculatorApp.swift; sourceTree = "<group>"; };
+		D26832B62A88A0FF00A2AAB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D26832B82A88A10000A2AAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D26832BB2A88A10000A2AAB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D26832C12A88A10000A2AAB7 /* swiss-army-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiss-army-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26832C52A88A10000A2AAB7 /* swiss_army_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiss_army_calculatorTests.swift; sourceTree = "<group>"; };
+		D26832CB2A88A10000A2AAB7 /* swiss-army-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiss-army-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26832CF2A88A10000A2AAB7 /* swiss_army_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiss_army_calculatorUITests.swift; sourceTree = "<group>"; };
+		D26832D12A88A10000A2AAB7 /* swiss_army_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiss_army_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26832AE2A88A0FF00A2AAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26832BE2A88A10000A2AAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26832C82A88A10000A2AAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26832A82A88A0FF00A2AAB7 = {
+			isa = PBXGroup;
+			children = (
+				D26832B32A88A0FF00A2AAB7 /* swiss-army-calculator */,
+				D26832C42A88A10000A2AAB7 /* swiss-army-calculatorTests */,
+				D26832CE2A88A10000A2AAB7 /* swiss-army-calculatorUITests */,
+				D26832B22A88A0FF00A2AAB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26832B22A88A0FF00A2AAB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26832B12A88A0FF00A2AAB7 /* swiss-army-calculator.app */,
+				D26832C12A88A10000A2AAB7 /* swiss-army-calculatorTests.xctest */,
+				D26832CB2A88A10000A2AAB7 /* swiss-army-calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26832B32A88A0FF00A2AAB7 /* swiss-army-calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D26832B42A88A0FF00A2AAB7 /* swiss_army_calculatorApp.swift */,
+				D26832B62A88A0FF00A2AAB7 /* ContentView.swift */,
+				D26832B82A88A10000A2AAB7 /* Assets.xcassets */,
+				D26832BA2A88A10000A2AAB7 /* Preview Content */,
+			);
+			path = "swiss-army-calculator";
+			sourceTree = "<group>";
+		};
+		D26832BA2A88A10000A2AAB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D26832BB2A88A10000A2AAB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D26832C42A88A10000A2AAB7 /* swiss-army-calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D26832C52A88A10000A2AAB7 /* swiss_army_calculatorTests.swift */,
+			);
+			path = "swiss-army-calculatorTests";
+			sourceTree = "<group>";
+		};
+		D26832CE2A88A10000A2AAB7 /* swiss-army-calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D26832CF2A88A10000A2AAB7 /* swiss_army_calculatorUITests.swift */,
+				D26832D12A88A10000A2AAB7 /* swiss_army_calculatorUITestsLaunchTests.swift */,
+			);
+			path = "swiss-army-calculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26832B02A88A0FF00A2AAB7 /* swiss-army-calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26832D52A88A10000A2AAB7 /* Build configuration list for PBXNativeTarget "swiss-army-calculator" */;
+			buildPhases = (
+				D26832AD2A88A0FF00A2AAB7 /* Sources */,
+				D26832AE2A88A0FF00A2AAB7 /* Frameworks */,
+				D26832AF2A88A0FF00A2AAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiss-army-calculator";
+			productName = "swiss-army-calculator";
+			productReference = D26832B12A88A0FF00A2AAB7 /* swiss-army-calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D26832C02A88A10000A2AAB7 /* swiss-army-calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26832D82A88A10000A2AAB7 /* Build configuration list for PBXNativeTarget "swiss-army-calculatorTests" */;
+			buildPhases = (
+				D26832BD2A88A10000A2AAB7 /* Sources */,
+				D26832BE2A88A10000A2AAB7 /* Frameworks */,
+				D26832BF2A88A10000A2AAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26832C32A88A10000A2AAB7 /* PBXTargetDependency */,
+			);
+			name = "swiss-army-calculatorTests";
+			productName = "swiss-army-calculatorTests";
+			productReference = D26832C12A88A10000A2AAB7 /* swiss-army-calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D26832CA2A88A10000A2AAB7 /* swiss-army-calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26832DB2A88A10000A2AAB7 /* Build configuration list for PBXNativeTarget "swiss-army-calculatorUITests" */;
+			buildPhases = (
+				D26832C72A88A10000A2AAB7 /* Sources */,
+				D26832C82A88A10000A2AAB7 /* Frameworks */,
+				D26832C92A88A10000A2AAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26832CD2A88A10000A2AAB7 /* PBXTargetDependency */,
+			);
+			name = "swiss-army-calculatorUITests";
+			productName = "swiss-army-calculatorUITests";
+			productReference = D26832CB2A88A10000A2AAB7 /* swiss-army-calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26832A92A88A0FF00A2AAB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D26832B02A88A0FF00A2AAB7 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					D26832C02A88A10000A2AAB7 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D26832B02A88A0FF00A2AAB7;
+					};
+					D26832CA2A88A10000A2AAB7 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = D26832B02A88A0FF00A2AAB7;
+					};
+				};
+			};
+			buildConfigurationList = D26832AC2A88A0FF00A2AAB7 /* Build configuration list for PBXProject "swiss-army-calculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26832A82A88A0FF00A2AAB7;
+			productRefGroup = D26832B22A88A0FF00A2AAB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26832B02A88A0FF00A2AAB7 /* swiss-army-calculator */,
+				D26832C02A88A10000A2AAB7 /* swiss-army-calculatorTests */,
+				D26832CA2A88A10000A2AAB7 /* swiss-army-calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26832AF2A88A0FF00A2AAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26832BC2A88A10000A2AAB7 /* Preview Assets.xcassets in Resources */,
+				D26832B92A88A10000A2AAB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26832BF2A88A10000A2AAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26832C92A88A10000A2AAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26832AD2A88A0FF00A2AAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26832B72A88A0FF00A2AAB7 /* ContentView.swift in Sources */,
+				D26832B52A88A0FF00A2AAB7 /* swiss_army_calculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26832BD2A88A10000A2AAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26832C62A88A10000A2AAB7 /* swiss_army_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26832C72A88A10000A2AAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26832D02A88A10000A2AAB7 /* swiss_army_calculatorUITests.swift in Sources */,
+				D26832D22A88A10000A2AAB7 /* swiss_army_calculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D26832C32A88A10000A2AAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26832B02A88A0FF00A2AAB7 /* swiss-army-calculator */;
+			targetProxy = D26832C22A88A10000A2AAB7 /* PBXContainerItemProxy */;
+		};
+		D26832CD2A88A10000A2AAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26832B02A88A0FF00A2AAB7 /* swiss-army-calculator */;
+			targetProxy = D26832CC2A88A10000A2AAB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D26832D32A88A10000A2AAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D26832D42A88A10000A2AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26832D62A88A10000A2AAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiss-army-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = UVLH876B42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iWillDev.swiss-army-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D26832D72A88A10000A2AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiss-army-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = UVLH876B42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iWillDev.swiss-army-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D26832D92A88A10000A2AAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iWillDev.swiss-army-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiss-army-calculator.app/swiss-army-calculator";
+			};
+			name = Debug;
+		};
+		D26832DA2A88A10000A2AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iWillDev.swiss-army-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiss-army-calculator.app/swiss-army-calculator";
+			};
+			name = Release;
+		};
+		D26832DC2A88A10000A2AAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iWillDev.swiss-army-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiss-army-calculator";
+			};
+			name = Debug;
+		};
+		D26832DD2A88A10000A2AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iWillDev.swiss-army-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiss-army-calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26832AC2A88A0FF00A2AAB7 /* Build configuration list for PBXProject "swiss-army-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26832D32A88A10000A2AAB7 /* Debug */,
+				D26832D42A88A10000A2AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26832D52A88A10000A2AAB7 /* Build configuration list for PBXNativeTarget "swiss-army-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26832D62A88A10000A2AAB7 /* Debug */,
+				D26832D72A88A10000A2AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26832D82A88A10000A2AAB7 /* Build configuration list for PBXNativeTarget "swiss-army-calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26832D92A88A10000A2AAB7 /* Debug */,
+				D26832DA2A88A10000A2AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26832DB2A88A10000A2AAB7 /* Build configuration list for PBXNativeTarget "swiss-army-calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26832DC2A88A10000A2AAB7 /* Debug */,
+				D26832DD2A88A10000A2AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D26832A92A88A0FF00A2AAB7 /* Project object */;
+}
