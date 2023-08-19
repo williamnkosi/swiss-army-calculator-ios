@@ -11,9 +11,13 @@ struct CategoryTile: View {
     var title: String
     var imageUrl:String
     var description: String
+    @State private var isShowingCalculatorView: Bool = false
     var body: some View {
+        NavigationLink(destination: CalculatorView(), isActive: $isShowingCalculatorView, label: {
+            EmptyView()})
+      
         Button(action: {
-            print("testing")
+            self.isShowingCalculatorView = true
         }){
             HStack {
                Image("dog2")

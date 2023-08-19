@@ -9,18 +9,20 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
+
         ScrollView(showsIndicators: false) {
-          
-            CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-            CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-            CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-            CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-            CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-            CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-            CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+            VStack{
+                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+            }
         }.navigationTitle("Home")
-            
-           
+        
+        
     
     }
 }
