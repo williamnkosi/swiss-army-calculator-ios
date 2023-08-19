@@ -13,11 +13,10 @@ struct HomeView: View {
         ScrollView(showsIndicators: false) {
             VStack{
                 CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
-                CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance1", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance2", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Financ3e", imageUrl: "dog2", description: "Calculator related to financal health")
+                CategoryTile(title: "Finance4", imageUrl: "dog2", description: "Calculator related to financal health")
                 CategoryTile(title: "Finance", imageUrl: "dog2", description: "Calculator related to financal health")
             }
         }.navigationTitle("Home")
