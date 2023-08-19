@@ -8,13 +8,9 @@
 import SwiftUI
 
 struct CalculatorView: View {
+    var calculatorOption: CalculatorOption
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(calculatorOption.title)
     }
 }
 
-struct CalculatorView_Previews: PreviewProvider {
-    static var previews: some View {
-        CalculatorView()
-    }
-}

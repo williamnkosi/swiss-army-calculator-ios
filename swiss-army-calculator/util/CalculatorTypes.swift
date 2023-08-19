@@ -7,6 +7,13 @@
 
 import Foundation
 
+protocol CalculatorOption {
+    var type: Finance { get }
+    var title: String { get }
+    var description: String { get }
+}
+
+
 enum Finance {
  case SimpleInterest
     case CompoundInterest
@@ -18,7 +25,7 @@ enum Finance {
     case CreditCardPayment
 }
 
-struct FinanceOption:Hashable{
+struct FinanceOption:Hashable, CalculatorOption{
   
     var type: Finance
     var title: String

@@ -8,28 +8,28 @@
 import SwiftUI
 
 struct CalculatorListView: View {
-    @State private var isShowingCalculatorView: Bool = false
+ 
     var viewTitle: String
+    @State private var isShowingCalculatorView: Bool = false
+
     var body: some View {
-        NavigationLink(destination: CalculatorView(), isActive: $isShowingCalculatorView, label: {
-            EmptyView()})
+
         List {
             ForEach(fin1, id: \.self) { item in
+                NavigationLink(destination: CalculatorView(calculatorOption: item)) {
                 Button(action: {
                     self.isShowingCalculatorView = true
+                
                 }){
+                   
                     Text(item.title)
                                     .padding()
                             }
+                
                 }
                
         }.navigationTitle(viewTitle)
                    
-    }
+        }}
 }
 
-struct CalculatorListView_Previews: PreviewProvider {
-    static var previews: some View {
-        CalculatorListView(viewTitle: "testing")
-    }
-}
