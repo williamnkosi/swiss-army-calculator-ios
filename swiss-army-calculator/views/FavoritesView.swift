@@ -10,7 +10,7 @@ import SwiftUI
 struct FavoritesView: View {
     var body: some View {
         List {
-            
+            Text("Testind")
         }.navigationTitle("Favorites")
     }
 }

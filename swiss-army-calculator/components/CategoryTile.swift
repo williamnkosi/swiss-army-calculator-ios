@@ -13,7 +13,7 @@ struct CategoryTile: View {
     var description: String
     @State private var isShowingCalculatorView: Bool = false
     var body: some View {
-        NavigationLink(destination: CalculatorView(), isActive: $isShowingCalculatorView, label: {
+        NavigationLink(destination: CalculatorListView(viewTitle: title), isActive: $isShowingCalculatorView, label: {
             EmptyView()})
       
         Button(action: {
